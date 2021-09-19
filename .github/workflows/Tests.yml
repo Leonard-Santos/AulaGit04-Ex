@@ -1,6 +1,8 @@
 name: Testes 
 
 on:
+  pull_request:
+    types: [opened, synchronize, reopened]
   push:
     branches: 
     - main 
@@ -33,3 +35,8 @@ jobs:
               
     - name: Run tests
       run: npm run test:ci
+
+    - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
