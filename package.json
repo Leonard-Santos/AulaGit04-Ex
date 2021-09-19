@@ -4,7 +4,7 @@
   "description": "Exercicio",
   "main": "app.js",
   "scripts": {
-    "test": "jest --ci --coverage --coverageReporters=html --coverageReporters=lcov"
+    "test": "jest --ci"
   },
   "repository": {
     "type": "git",
