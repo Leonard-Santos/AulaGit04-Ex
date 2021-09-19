@@ -1,0 +1,27 @@
+{
+  "name": "aulagit04-ex",
+  "version": "1.0.0",
+  "description": "Exercicio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo Error: no test specified && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonard-Santos/AulaGit04-Ex.git"
+  },
+  "keywords": [
+    "Aplicacao",
+    "aula",
+    "teste"
+  ],
+  "author": "Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonard-Santos/AulaGit04-Ex/issues"
+  },
+  "homepage": "https://github.com/Leonard-Santos/AulaGit04-Ex#readme",
+  "dependencies": {
+    "jest": "^27.2.0"
+  }
+}
